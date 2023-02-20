@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Now you need to get the tokens from the services that we are about to use to access their APIs
 
 ## Genius
-We are going to create an API client on [Genius dev page](https://genius.com/developers)
+We are going to create an API client token on [Genius dev page](https://genius.com/developers)
 
 ![API client](https://lh3.googleusercontent.com/u/1/drive-viewer/AAOQEOSfwbbTVS2pkR-bAqTl6l21-pqUGUkwMswVEuh-DW9Ow_RijU6hwUT981ax2SF0Tp43jYQIuvSwJZQxiqmJNy18lswEKg=w1078-h859)
 
