@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta property='og:title' content='Haksolot'/>
+    <meta property='og:image' content='https://avatars.githubusercontent.com/u/83018259?v=4'/>
+    <meta property='og:description' content='Click to see what Haksolot is listening to !'/>
+    <meta property='og:url' content='https://github.com/haksolot'/>
+    <meta property='og:image:width' content='600' />
+    <meta property='og:image:height' content='600' />
+    <title>Spotatus</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js" defer></script>
+</head>
+<body>
+    <div class="background-wrapper">
+        <img id="background" src="https://avatars.githubusercontent.com/u/83018259?v=4" class="background"/>
+    </div>
+    <div class="parent-holder">
+        <div class="parent">
+            <div class="infos" id="infos">
+                <img id="cover" src="https://avatars.githubusercontent.com/u/83018259?v=4" class="cover" onclick="toggleLyrics()"/>
+                <a id="uri" href="https://github.com/haksolot" target="_blank" style="text-decoration: none;">
+                    <div id="title" class="title">?</div>
+                </a>
+                <div id="artist" class="artist">?</div>
+            </div>
+            <div class="timing">
+                <div class="time">
+                    <div id="current_time_portrait" class="current-time">0:00</div>
+                    <div id="total_time_portrait" class="total-time">0:00</div>
+                </div>
+                <div class="time-rail">
+                    <div class="time-slider_portrait" id="time-slider_portrait"></div>
+                </div>
+            </div>
+            <div class="lyrics-holder" id="lyrics-holder">
+                <div id="lyrics" class="lyrics">
+                    ?
+                </div>
+            </div>
+        </div>
+        <div class="timing-landscape">
+            <div class="time">
+                <div id="current_time_landscape" class="current-time">0:00</div>
+                <div id="total_time_landscape" class="total-time">0:00</div>
+            </div>
+            <div class="time-rail">
+                <div class="time-slider_landscape" id="time-slider_landscape"></div>
+            </div>
+        </div>
+    </div>
+</body>
