@@ -8,4 +8,4 @@ A website that displays what you are listening to on Spotify in real time
 - Real time timeline bar
 - Cover art, Title and Artist display
 
-Read the [guide]() to install this tool !
+Read the [guide](https://github.com/haksolot/Spotatus/blob/main/SETUP.md) to install this tool !
